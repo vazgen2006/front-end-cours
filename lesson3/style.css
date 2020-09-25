@@ -1,0 +1,40 @@
+table {
+  border-spacing: 0px;
+}
+
+table tr td {
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  border: 2px solid black;
+  /* border-right: 10px solid blue; */
+}
+
+table thead tr td:not(:first-of-type) {
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+
+
+/* table thead tr td:first-of-type{
+    color: initial;
+} */
+
+table  tbody tr td:first-of-type{
+    color: red;
+}
+table tbody tr:nth-of-type(2) td:nth-of-type(3){
+    background-color:  orange;
+}
+
+table tbody tr:nth-of-type(2n +1) {
+    background-color: orange;
+}
+
+input [type="email"] {
+ border-color: orange;
+}
+
+input [type] {
+    background-color: red;
+}

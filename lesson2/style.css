@@ -1,0 +1,46 @@
+body {
+  color: green;
+  background-color: black;
+}
+
+.mylist {
+  list-style: none;
+  color: darkblue;}
+  
+
+.mylist.li{ margin: 5px;
+}
+
+ul {
+  color: ivory;
+}
+
+ul,
+ol{
+display: inline-block  
+}
+
+.mylist .css {
+    color: mediumblue;
+}
+
+.mylist {
+  list-style: none;
+  color: maroon;
+}
+/* #myid {
+  color: mediumblue;
+} */
+
+.mylist li:nth-of-type(3) {
+    color: yellow
+    ;
+}
+body p.css {
+    font-size: 30px;
+}
+
+
+.mylist.list{
+    color: green;
+}
