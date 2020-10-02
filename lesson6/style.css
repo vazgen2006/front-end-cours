@@ -1,0 +1,26 @@
+form label {
+  display: block;
+  margin-bottom: 15px;
+}
+form label span {
+  width: 150px;
+  display: inline-block;
+}
+form label input {
+    border:  1px  solid ;
+    color: rgb(132, 0, 255);
+}
+
+form label input:focus {
+    outline: none;
+    background-color: rgba(132, 0, 255, 0.308);
+    box-shadow: 0 0 9px rgb(132 0 255 / 81%);
+}
+
+form label input::placeholder {
+    color: inherit;
+    opacity: 0.3;
+}
+form label span:hover {
+
+}
