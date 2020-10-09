@@ -1,0 +1,50 @@
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    
+}
+.green {
+width: 78%;
+background-color: green;
+justify-content:space-between
+}
+.red {
+    width:20%;
+    background-color: red;
+    height: 700px;
+    font-size: 25px;
+    text-align: center;
+}
+header {
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    font-size: 35px;
+    
+}
+
+footer {
+    background-color: rgb(74, 74, 207);
+    height: 60px ; 
+    display: flex;
+    font-size: 25px; 
+    width: 100%;
+    font-size: 35px;
+}
+
+.item {
+    min-height: 50px;
+    font-size: 25px;
+    display:flex;
+    justify-content:space-between
+    
+    
+}
+.vv{
+    display:flex;
+    justify-content:space-between
+        
+    
+}
