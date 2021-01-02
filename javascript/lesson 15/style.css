@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 1%;
+}
+
+body {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.233);
+    font-size: 35px;
+    margin-top: -1%;
+}
+
+.span1 {
+    height: 58%;
+    font-size: 35px;
+}
+
+span {
+    font-size: 35px;
+}
+
+.mec_div {
+    justify-content: center;
+    display: flex;
+}
+
+.reset55 {
+    margin-right: 59px;
+    margin-top: 4%;
+}
+
+.mec_div1 {
+    justify-content: center;
+    display: flex;
+}
+
+.p1 {
+    position: absolute;
+    font-size: 45px;
+    left: 3%;
+    top: 6%;
+}
+
+.p2 {
+    position: absolute;
+    font-size: 45px;
+    left: 3%;
+    top: 33%;
+}

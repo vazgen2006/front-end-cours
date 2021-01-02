@@ -90,27 +90,25 @@
 // }
 // console.log(max)
 
-let arr = [10, 8, 6, 7, 1, 3, 5, 4, 87, 5, 41]
+// let arr = [10, 8, 6, 7, 1, 3, 5, 4, 87, 5, 41] ///////////////////7777//////////////
+///////////////////8888//////////////
+///////////////////9999//////////////
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//         if (arr[j] > arr[j + 1]) {
+//             let tiv = arr[j]
+//             arr[j] = arr[j + 1]
+//             arr[j + 1] = tiv
+//         }
+//     }
 
-for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length; j++) {
-        if (arr[j] > arr[j + 1]) {
-            let tiv = arr[j]
-            arr[j] = arr[j + 1]
-            arr[j + 1] = tiv
-        }
-    }
+// }
 
-}
-// let arr1 = ["penultimate", "theSmallest", "the_latest"]
-// let theSmallest = console.log(arr[0])
-// let penultimate = console.log(arr[arr.length - 2])
-// let the_latest = console.log(arr[arr.length - 1])
-let obj = {
-    theSmallest: arr[0],
-    penultimate: arr[arr.length - 2],
-    the_latest: arr[arr.length - 1]
-}
+// let obj = {
+//     theSmallest: arr[0],
+//     penultimate: arr[arr.length - 2],
+//     the_latest: arr[arr.length - 1]
+// }
 
-// console.log(arr)
-console.log(obj)
+
+// console.log(obj)
